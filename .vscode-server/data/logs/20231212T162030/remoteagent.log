@@ -1,0 +1,13 @@
+2023-12-12 16:20:30.477 [info] 
+
+
+
+
+2023-12-12 16:20:30.477 [info] Extension host agent started.
+2023-12-12 16:20:30.477 [info] Started initializing default profile extensions in extensions installation folder. file:///home/isaacgw7/.vscode-server/extensions
+2023-12-12 16:20:30.485 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/isaacgw7/.vscode-server/extensions
+2023-12-12 16:20:30.697 [info] [127.0.0.1][f3bbbeaa][ManagementConnection] New connection established.
+2023-12-12 16:20:30.844 [info] [127.0.0.1][c1eed355][ExtensionHostConnection] New connection established.
+2023-12-12 16:20:30.922 [info] [127.0.0.1][c1eed355][ExtensionHostConnection] <403> Launched Extension Host Process.
+2023-12-12 16:26:16.709 [info] [127.0.0.1][f3bbbeaa][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-12 16:26:16.714 [info] [127.0.0.1][c1eed355][ExtensionHostConnection] <403> Extension Host Process exited with code: 0, signal: null.

@@ -1,0 +1,57 @@
+2023-12-12 16:38:32.258 [info] Log level: Info
+2023-12-12 16:38:32.258 [info] Validating found git in: "git"
+2023-12-12 16:38:32.258 [info] Using git "2.34.1" from "git"
+2023-12-12 16:38:32.258 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-12 16:38:32.258 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-12-12 16:38:32.258 [info] Open repository: /home/isaacgw7/aa03-recursion-pt1
+2023-12-12 16:38:32.258 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-12 16:38:32.258 [info] > git config --get commit.template [2ms]
+2023-12-12 16:38:32.263 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-12 16:38:32.263 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-12-12 16:38:32.264 [info] Open repository: /home/isaacgw7/aa03-recursion-pt1/aa03-recursion-pt1
+2023-12-12 16:38:32.268 [warning] ENOENT: no such file or directory, open '/home/isaacgw7/aa03-recursion-pt1/.git/refs/remotes/origin/main'
+2023-12-12 16:38:32.271 [info] > git config --get commit.template [1ms]
+2023-12-12 16:38:32.272 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2023-12-12 16:38:32.276 [info] > git status -z -uall [2ms]
+2023-12-12 16:38:32.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/full-time refs/remotes/full-time [7ms]
+2023-12-12 16:38:32.284 [info] > git config --get commit.template [2ms]
+2023-12-12 16:38:32.288 [warning] ENOENT: no such file or directory, open '/home/isaacgw7/aa03-recursion-pt1/aa03-recursion-pt1/.git/refs/remotes/origin/full-time'
+2023-12-12 16:38:32.291 [info] > git rev-parse refs/remotes/origin/full-time [4ms]
+2023-12-12 16:38:32.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-12-12 16:38:32.293 [info] > git status -z -uall [0ms]
+2023-12-12 16:38:32.298 [warning] ENOENT: no such file or directory, open '/home/isaacgw7/aa03-recursion-pt1/.git/refs/remotes/origin/main'
+2023-12-12 16:38:32.303 [info] > git config --get commit.template [3ms]
+2023-12-12 16:38:32.303 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2023-12-12 16:38:32.307 [info] > git status -z -uall [2ms]
+2023-12-12 16:38:32.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/full-time refs/remotes/full-time [2ms]
+2023-12-12 16:38:32.310 [warning] ENOENT: no such file or directory, open '/home/isaacgw7/aa03-recursion-pt1/aa03-recursion-pt1/.git/refs/remotes/origin/full-time'
+2023-12-12 16:38:32.311 [info] > git rev-parse refs/remotes/origin/full-time [1ms]
+2023-12-12 16:38:32.313 [info] > git status -z -uall [1ms]
+2023-12-12 16:38:32.775 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-12 16:38:32.775 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-12 16:38:34.372 [info] > git check-ignore -v -z --stdin [0ms]
+2023-12-12 16:38:35.738 [info] > git check-ignore -v -z --stdin [1ms]
+2023-12-12 16:38:36.289 [info] > git show --textconv :problems/01-sum-to-n.js [2ms]
+2023-12-12 16:38:36.289 [info] > git ls-files --stage -- /home/isaacgw7/aa03-recursion-pt1/aa03-recursion-pt1/problems/01-sum-to-n.js [1ms]
+2023-12-12 16:38:36.292 [info] > git cat-file -s a7c85ee3d9c0b448e6569006570b8c60403e455f [1ms]
+2023-12-12 16:44:52.920 [info] > git config --get commit.template [3ms]
+2023-12-12 16:44:52.920 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-12 16:44:52.922 [warning] ENOENT: no such file or directory, open '/home/isaacgw7/aa03-recursion-pt1/.git/refs/remotes/origin/main'
+2023-12-12 16:44:52.923 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2023-12-12 16:44:52.925 [info] > git status -z -uall [0ms]
+2023-12-12 16:44:52.938 [info] > git ls-files --stage -- /home/isaacgw7/aa03-recursion-pt1/aa03-recursion-pt1/problems/01-sum-to-n.js [0ms]
+2023-12-12 16:44:52.941 [info] > git cat-file -s a7c85ee3d9c0b448e6569006570b8c60403e455f [1ms]
+2023-12-12 16:44:53.003 [info] > git show --textconv :problems/01-sum-to-n.js [1ms]
+2023-12-12 17:08:51.141 [info] > git config --get commit.template [5ms]
+2023-12-12 17:08:51.141 [info] > git ls-files --stage -- /home/isaacgw7/aa03-recursion-pt1/aa03-recursion-pt1/problems/01-sum-to-n.js [1ms]
+2023-12-12 17:08:51.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-12-12 17:08:51.144 [info] > git cat-file -s a7c85ee3d9c0b448e6569006570b8c60403e455f [0ms]
+2023-12-12 17:08:51.146 [warning] ENOENT: no such file or directory, open '/home/isaacgw7/aa03-recursion-pt1/.git/refs/remotes/origin/main'
+2023-12-12 17:08:51.147 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2023-12-12 17:08:51.151 [info] > git status -z -uall [2ms]
+2023-12-12 17:08:51.153 [info] > git show --textconv :problems/01-sum-to-n.js [2ms]
+2023-12-12 17:08:56.159 [info] > git config --get commit.template [2ms]
+2023-12-12 17:08:56.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-12-12 17:08:56.161 [warning] ENOENT: no such file or directory, open '/home/isaacgw7/aa03-recursion-pt1/.git/refs/remotes/origin/main'
+2023-12-12 17:08:56.162 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2023-12-12 17:08:56.164 [info] > git status -z -uall [1ms]

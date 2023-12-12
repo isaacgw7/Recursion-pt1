@@ -1,0 +1,17 @@
+2023-12-12 16:30:49.922 [info] Log level: Info
+2023-12-12 16:30:49.922 [info] Validating found git in: "git"
+2023-12-12 16:30:49.922 [info] Using git "2.34.1" from "git"
+2023-12-12 16:30:49.922 [info] > git rev-parse --show-toplevel [1ms]
+2023-12-12 16:30:49.922 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-12-12 16:30:49.922 [info] Open repository: /home/isaacgw7/appacademy/aa03-recursion-pt1
+2023-12-12 16:30:49.925 [info] > git config --get commit.template [1ms]
+2023-12-12 16:30:49.930 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-12-12 16:30:49.932 [warning] ENOENT: no such file or directory, open '/home/isaacgw7/appacademy/aa03-recursion-pt1/.git/refs/remotes/origin/main'
+2023-12-12 16:30:49.933 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2023-12-12 16:30:49.936 [info] > git status -z -uall [0ms]
+2023-12-12 16:30:49.943 [info] > git config --get commit.template [2ms]
+2023-12-12 16:30:49.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2023-12-12 16:30:49.945 [warning] ENOENT: no such file or directory, open '/home/isaacgw7/appacademy/aa03-recursion-pt1/.git/refs/remotes/origin/main'
+2023-12-12 16:30:49.945 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2023-12-12 16:30:49.947 [info] > git status -z -uall [0ms]
+2023-12-12 16:30:50.438 [info] > git check-ignore -v -z --stdin [1ms]
